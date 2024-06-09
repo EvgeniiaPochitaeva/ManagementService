@@ -1,0 +1,9 @@
+ManagementService\reportDetailsTest\ReportDetailsControllerTest.class
+ManagementService\ManagementServiceApplicationTests.class
+ManagementService\authTest\AuthServiceTest.class
+ManagementService\userTest\UserServiceTest.class
+ManagementService\companyTest\CompanyControllerTest.class
+ManagementService\reportTest\ReportServiceTest.class
+ManagementService\companyTest\CompanyServiceTest.class
+ManagementService\reportDetailsTest\ReportDetailsServiceTest.class
+ManagementService\reportTest\ReportControllerTest.class
