@@ -32,21 +32,18 @@ class ReportServiceTest {
 
     @Test
     void testCreateReport() {
-        // Arrange
+
         Report testReport = createTestReport();
 
         when(reportRepository.save(testReport)).thenReturn(testReport);
 
-        // Act
         Report createdReport = reportService.createReport(testReport);
 
-        // Assert
         assertEquals(testReport.getId(), createdReport.getId());
         assertEquals(testReport.getReportDate(), createdReport.getReportDate());
         assertEquals(testReport.getTotalRevenue(), createdReport.getTotalRevenue());
         assertEquals(testReport.getNetProfit(), createdReport.getNetProfit());
 
-        // Verify
         verify(reportRepository, times(1)).save(testReport);
     }
 
